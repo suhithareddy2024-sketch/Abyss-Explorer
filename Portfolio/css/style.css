@@ -1,0 +1,156 @@
+body{
+    font-family:Arial,sans-serif;
+}
+.profile{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border:5px solid #ffc107;
+}
+h2{
+    color:#ffc107;
+    margin-bottom:20px;
+}
+.card{
+    border-radius:15px;
+}
+.project{
+    background:#1e1e1e;
+    color:white;
+    border:1px solid #ffc107;
+}
+.navbar{
+    box-shadow:0 2px 8px rgba(0,0,0,.4);
+}
+section{
+    scroll-margin-top:80px;
+}
+img{
+    max-width:100%;
+}
+.btn-warning{
+    font-weight:bold;
+}
+footer{
+    color:#bbb;
+}
+.internship-img{
+    width:300px;
+    height:auto;
+    display:block;
+    margin:auto;
+}:root{
+    --bg:#f7f3eb;
+    --gold:#c79b3b;
+    --text:#1d1b1b;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body{
+    font-family:Poppins,
+    sans-serif;background:var(--bg);
+    color:#555
+}
+.navbar{
+    background:rgba(247,243,235,.95);
+    border-bottom:1px solid #e8d7b5
+}
+.navbar-brand,.nav-link{
+    color:#222!important
+}
+.gold{
+    color:var(--gold);
+    font-style:italic
+}
+.hero{
+    padding:140px 0 80px
+}
+h1,h2,h3,h4{
+    font-family:"Playfair Display",serif;
+    color:#111
+}
+h1{
+    font-size:5rem;
+    line-height:1
+}
+.section{
+    padding:80px 0
+}
+.section-tag{
+    letter-spacing:3px;
+    color:var(--gold);
+    font-size:.85rem
+}
+.profile-card,.exp-card,.edu-card,.contact-card{
+    background:#f2ebdf;
+    border:1px solid #e2d1ae;padding:30px;border-left:5px solid var(--gold);border-radius:6px
+}
+.avatar{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:15px
+}
+.tags span{
+    display:inline-block;
+    border:1px solid #d7c4a0;
+    padding:8px 18px;
+    margin:6px;
+    color:#8b6a22
+}
+.project{
+    background:#1e1919;
+    color:#ddd;
+    padding:20px;
+    margin:40px 0;
+    border:1px solid #7a5c1b
+}
+.project h3{
+    color:#fff;
+    margin-top:20px
+}
+.project img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    border:1px solid #555
+}
+.certificate{
+    width:280px;
+    display:block;
+    margin-top:15px
+}
+.event{
+    width:100%;
+    max-width:500px;
+    margin-top:15px
+}
+.contact{
+    background:#191414;
+    color:#fff;
+    padding:80px 0}
+.contact h2{
+    color:#fff
+}
+.contact-card{
+    background:#231d1d;
+    color:#ddd;
+    border-color:#5a4318
+}
+.btn-dark{
+    background:#111;
+    border:none
+}
+.btn-outline-dark:hover{
+    background:#111;
+    color:#fff
+}
+@media(max-width:768px){
+h1{font-size:3rem}
+.project img{height:200px}
+.hero{padding-top:110px}
+}
